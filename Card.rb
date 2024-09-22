@@ -10,8 +10,8 @@ class Card
         @shading = shading
     end
   
-    # to_string method to get all card information in one piece of data
-    def to_string
+    # converts all card values into a string
+    def to_s
         "#{number} #{color} #{shape} #{shading}"
     end
 end
