@@ -1,3 +1,5 @@
+require_relative 'card'
+
 class Deck
     NUMBERS = [1, 2, 3]
     COLORS = ['red', 'green', 'purple']
