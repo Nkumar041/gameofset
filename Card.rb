@@ -3,7 +3,7 @@ require 'colorize'
 class Card
     attr_reader :number, :color, :shape, :shading
   
-    # Initialize the 4 attributes
+    # initialize the 4 attributes
     def initialize(number, color, shape, shading)
         @number = number
         @color = color
@@ -11,7 +11,7 @@ class Card
         @shading = shading
     end
   
-    # converts all card values into a string
+    # converts all card values into a string. do some nice formatting here
     def to_s
         colorized_color = case @color
                           when 'red' then 'red'.colorize(:red)
@@ -31,6 +31,6 @@ class Card
                         when 'open' then shape_symbol * @number + ' (open)'
                         end
     
-        "#{colorized_color} #{shading_style}"
+        "#{colorized_color} #{symbol_and_shading}"
     end
 end

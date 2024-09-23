@@ -6,7 +6,7 @@ class Deck
     SHAPES = ['oval', 'squiggle', 'diamond']
     SHADINGS = ['solid', 'striped', 'open']
   
-    # Create the full deck with all combinations
+    # create the full deck with all combinations
     def initialize
         @cards = []
         NUMBERS.each do |number|
@@ -19,16 +19,16 @@ class Deck
             end
         end
         
-        # Shuffle the deck
+        # shuffle the deck
         @cards.shuffle!
     end
   
-    # Deal the cards
+    # deal the cards
     def deal(num)
         @cards.shift(num)
     end
   
-    # Find number of cards remaining in the deck
+    # find number of cards remaining in the deck
     def remaining_cards
         @cards.length
     end
