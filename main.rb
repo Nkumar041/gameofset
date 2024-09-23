@@ -1,3 +1,5 @@
+# Nikhil Kumar
+
 require_relative 'game'
 
 # Start the game
