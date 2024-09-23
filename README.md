@@ -9,7 +9,7 @@ The **Game of Set** is a multiplayer card game where players try to identify set
 2. The game will display a board of 12 cards.
 3. Players can identify sets by entering:  [Player Number] [Card Index 1] [Card Index 2] [Card Index 3]
 
-Example:  1 3 5 7
+Example:  1 3 5 7 - This means player 1 is identifying cards 3, 5, and 7 as a set
 
 4. If the set is valid, the player's score increases, and the cards are replaced.
 5. The game lasts 120 seconds. The player with the most valid sets wins.
